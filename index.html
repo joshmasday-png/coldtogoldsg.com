@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cold to Gold — Real Estate Automation & Product Design</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+<title>Cold to Gold — Automation, Design &amp; Digital Systems, Worldwide</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
     --black: #0A0A0A;
@@ -27,7 +27,12 @@
     line-height: 1.6;
     -webkit-font-smoothing: antialiased;
   }
-  h1, h2, h3 { font-family: 'Syne', sans-serif; line-height: 1.1; }
+  h1, h2, h3 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: rgba(250,250,248,0.88);
+  }
   a { color: inherit; text-decoration: none; }
 
   /* NAV */
@@ -40,7 +45,7 @@
     border-bottom: 1px solid rgba(201,168,76,0.12);
   }
   .nav-logo {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 800;
     font-size: 18px;
     letter-spacing: -0.02em;
@@ -74,7 +79,7 @@
     justify-content: center;
     padding: 140px 48px 80px;
     position: relative;
-    overflow: hidden;
+    overflow: visible;
   }
   .hero::before {
     content: '';
@@ -103,22 +108,24 @@
     background: var(--gold);
   }
   .hero h1 {
-    font-size: clamp(48px, 7vw, 88px);
-    font-weight: 800;
-    letter-spacing: -0.03em;
-    max-width: 900px;
+    font-size: clamp(32px, 3.8vw, 52px);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    max-width: 780px;
     margin-bottom: 28px;
+    line-height: 1.2;
+    overflow: visible;
   }
   .hero h1 em {
     font-style: normal;
     color: var(--gold);
   }
   .hero-sub {
-    font-size: 18px;
-    color: rgba(250,250,248,0.55);
-    max-width: 520px;
+    font-size: 17px;
+    color: rgba(250,250,248,0.52);
+    max-width: 500px;
     margin-bottom: 48px;
-    line-height: 1.7;
+    line-height: 1.75;
   }
   .hero-actions { display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
   .btn-primary {
@@ -151,9 +158,9 @@
     flex-wrap: wrap;
   }
   .hero-stat-num {
-    font-family: 'Syne', sans-serif;
-    font-size: 36px;
-    font-weight: 800;
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
     color: var(--gold);
     letter-spacing: -0.02em;
   }
@@ -177,10 +184,13 @@
     margin-bottom: 16px;
   }
   .section-title {
-    font-size: clamp(32px, 4vw, 52px);
-    font-weight: 800;
-    letter-spacing: -0.02em;
+    font-size: clamp(24px, 2.8vw, 38px);
+    font-weight: 700;
+    letter-spacing: -0.01em;
     margin-bottom: 20px;
+    color: rgba(250,250,248,0.88);
+    line-height: 1.25;
+    overflow: visible;
   }
   .section-sub {
     font-size: 17px;
@@ -217,10 +227,11 @@
     font-size: 16px;
   }
   .problem-item h3 {
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 10px;
     letter-spacing: -0.01em;
+    color: rgba(250,250,248,0.85);
   }
   .problem-item p {
     font-size: 14px;
@@ -261,7 +272,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto 16px;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 800;
     font-size: 16px;
     color: var(--gold);
@@ -271,6 +282,7 @@
     font-weight: 600;
     margin-bottom: 8px;
     letter-spacing: -0.01em;
+    color: rgba(250,250,248,0.82);
   }
   .flow-desc {
     font-size: 12px;
@@ -304,6 +316,7 @@
     font-weight: 700;
     margin-bottom: 10px;
     letter-spacing: -0.01em;
+    color: rgba(250,250,248,0.85);
   }
   .auto-card p {
     font-size: 13px;
@@ -315,7 +328,7 @@
   .services { background: #111111; }
   .services-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
     margin-top: 56px;
   }
@@ -344,10 +357,11 @@
     margin-bottom: 20px;
   }
   .service-card h3 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 800;
     margin-bottom: 12px;
     letter-spacing: -0.02em;
+    color: rgba(250,250,248,0.87);
   }
   .service-card > p {
     font-size: 14px;
@@ -420,11 +434,11 @@
     margin-bottom: 16px;
   }
   .pricing-price {
-    font-family: 'Syne', sans-serif;
-    font-size: 42px;
-    font-weight: 800;
-    letter-spacing: -0.03em;
-    color: var(--white);
+    font-family: 'Outfit', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: rgba(250,250,248,0.87);
     margin-bottom: 4px;
   }
   .pricing-price span {
@@ -511,14 +525,15 @@
   }
   .faq-q {
     padding: 24px 28px;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
     letter-spacing: -0.01em;
     user-select: none;
+    color: rgba(250,250,248,0.82);
   }
   .faq-q::after {
     content: '+';
@@ -553,13 +568,16 @@
     padding: 100px 48px;
   }
   .cta-section h2 {
-    font-size: clamp(36px, 5vw, 60px);
-    font-weight: 800;
-    letter-spacing: -0.03em;
+    font-size: clamp(24px, 2.8vw, 40px);
+    font-weight: 700;
+    letter-spacing: -0.01em;
     margin-bottom: 20px;
-    max-width: 700px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+    color: rgba(250,250,248,0.88);
+    line-height: 1.25;
+    overflow: visible;
   }
   .cta-section h2 em {
     font-style: normal;
@@ -582,7 +600,7 @@
     gap: 16px;
   }
   .footer-logo {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Outfit', sans-serif;
     font-weight: 800;
     font-size: 16px;
   }
@@ -622,6 +640,7 @@
     .automation-features { grid-template-columns: 1fr; }
     .services-grid { grid-template-columns: 1fr; }
     .pricing-grid { grid-template-columns: 1fr; }
+    .pricing-grid { grid-template-columns: 1fr; }
     .hero-stat-row { gap: 28px; }
     footer { flex-direction: column; text-align: center; }
   }
@@ -646,28 +665,28 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero-eyebrow">Singapore · Automation & Design</div>
-  <h1>Never miss a property lead <em>again.</em></h1>
-  <p class="hero-sub">Automated WhatsApp responses in under 60 seconds, 24/7. Built for Singapore property agents who are done following up manually.</p>
+  <div class="hero-eyebrow">Worldwide · Automation & Design</div>
+  <h1>We build systems that <em>work while you sleep.</em></h1>
+  <p class="hero-sub">Automation systems, SaaS interfaces, and digital products — built for businesses, agents, and teams who want to move faster and scale smarter. Worldwide.</p>
   <div class="hero-actions">
     <a href="https://tally.so/r/EkaaaX" target="_blank" class="btn-primary">Get Your System →</a>
     <a href="#automation" class="btn-ghost">See how it works ↓</a>
   </div>
   <div class="hero-stat-row">
     <div>
-      <div class="hero-stat-num">&lt;60s</div>
-      <div class="hero-stat-label">Response time</div>
+      <div class="hero-stat-num">3+</div>
+      <div class="hero-stat-label">Service verticals</div>
     </div>
     <div>
-      <div class="hero-stat-num">3</div>
-      <div class="hero-stat-label">Auto workflows</div>
+      <div class="hero-stat-num">48h</div>
+      <div class="hero-stat-label">Avg delivery time</div>
     </div>
     <div>
       <div class="hero-stat-num">24/7</div>
-      <div class="hero-stat-label">Always on</div>
+      <div class="hero-stat-label">Systems run always</div>
     </div>
     <div>
-      <div class="hero-stat-num">SGD $20</div>
+      <div class="hero-stat-num">~$15 USD</div>
       <div class="hero-stat-label">Monthly running cost</div>
     </div>
   </div>
@@ -677,28 +696,28 @@
 <section class="problem" id="problem">
   <div class="container">
     <div class="section-label">The Problem</div>
-    <h2 class="section-title">Every missed lead is a missed commission.</h2>
-    <p class="section-sub">Property buyers move fast. The agent who replies first wins the deal. Manual follow-up is costing you money.</p>
+    <h2 class="section-title">Your business is losing time, leads, and money to manual work.</h2>
+    <p class="section-sub">Every hour spent on repetitive tasks, slow follow-ups, or clunky tools is an hour not spent growing. We fix that — with automation, design, and systems built to last.</p>
     <div class="problem-grid">
       <div class="problem-item">
         <div class="problem-icon">⏱</div>
         <h3>Slow response time</h3>
-        <p>Leads enquire on multiple platforms simultaneously. Reply after an hour and they've already moved on to another agent.</p>
+        <p>Leads and clients enquire on multiple platforms simultaneously. Delayed replies lose deals — no matter what industry you're in.</p>
       </div>
       <div class="problem-item">
         <div class="problem-icon">📋</div>
-        <h3>No CRM system</h3>
-        <p>Leads sitting in WhatsApp chats, spreadsheets, and sticky notes. No single view of your pipeline means leads fall through the cracks.</p>
+        <h3>No centralised system</h3>
+        <p>Data scattered across WhatsApp, spreadsheets, and emails. No single source of truth means things fall through the cracks constantly.</p>
       </div>
       <div class="problem-item">
         <div class="problem-icon">🔁</div>
-        <h3>Manual follow-up</h3>
-        <p>Chasing cold leads manually takes hours every week. Most agents give up after one follow-up and leave money on the table.</p>
+        <h3>Manual, repetitive work</h3>
+        <p>Hours spent on tasks a system could do in seconds. Manual workflows don't scale — and they burn out the people running them.</p>
       </div>
       <div class="problem-item">
         <div class="problem-icon">📅</div>
-        <h3>No-shows and ghost leads</h3>
-        <p>Leads book viewings and disappear. Without automated reminders, show-up rates drop and your schedule gets wasted.</p>
+        <h3>Poor digital presence</h3>
+        <p>A slow website, confusing interface, or missing automation signals to clients that your business isn't ready. First impressions are everything.</p>
       </div>
     </div>
   </div>
@@ -707,53 +726,53 @@
 <!-- AUTOMATION -->
 <section id="automation">
   <div class="container">
-    <div class="section-label">Cold to Gold System</div>
-    <h2 class="section-title">Three workflows. Fully automated.</h2>
-    <p class="section-sub">From first enquiry to confirmed viewing — your entire lead pipeline runs on autopilot.</p>
+    <div class="section-label">How We Work</div>
+    <h2 class="section-title">Strategy. Build. Automate. Deliver.</h2>
+    <p class="section-sub">Every engagement follows the same proven process — whether we're building an automation system, a SaaS interface, or a full digital product.</p>
 
     <div class="automation-flow">
       <div class="flow-step">
         <div class="flow-num">1</div>
-        <div class="flow-title">Lead submits form</div>
-        <div class="flow-desc">Tally form captures name, budget, timeline, and property type</div>
+        <div class="flow-title">Discovery</div>
+        <div class="flow-desc">We understand your business, goals, and what needs to be built</div>
       </div>
       <div class="flow-step">
         <div class="flow-num">2</div>
-        <div class="flow-title">AI crafts message</div>
-        <div class="flow-desc">OpenAI generates a personalised WhatsApp reply using their exact details</div>
+        <div class="flow-title">Design &amp; plan</div>
+        <div class="flow-desc">Architecture, wireframes, or automation blueprint — documented before we build</div>
       </div>
       <div class="flow-step">
         <div class="flow-num">3</div>
-        <div class="flow-title">WhatsApp sends</div>
-        <div class="flow-desc">Lead receives their message in under 60 seconds via Twilio</div>
+        <div class="flow-title">Build</div>
+        <div class="flow-desc">Systems, interfaces, or workflows built and tested to production standard</div>
       </div>
       <div class="flow-step">
         <div class="flow-num">4</div>
-        <div class="flow-title">CRM logs lead</div>
-        <div class="flow-desc">Airtable records every lead with full details and pipeline status</div>
+        <div class="flow-title">Test &amp; refine</div>
+        <div class="flow-desc">Every output is tested live — no hand-offs without verification</div>
       </div>
       <div class="flow-step">
         <div class="flow-num">5</div>
-        <div class="flow-title">You get alerted</div>
-        <div class="flow-desc">Instant Telegram notification to your phone the moment a lead comes in</div>
+        <div class="flow-title">Deliver &amp; support</div>
+        <div class="flow-desc">You receive a working system, a walkthrough, and post-delivery support</div>
       </div>
     </div>
 
     <div class="automation-features">
       <div class="auto-card">
-        <div class="auto-card-tag">Workflow 1</div>
-        <h3>Instant lead response</h3>
-        <p>Every new enquiry gets a personalised WhatsApp message in under 60 seconds, 24 hours a day, 7 days a week. No manual work required.</p>
+        <div class="auto-card-tag">Automation</div>
+        <h3>Make.com &amp; API systems</h3>
+        <p>Full workflow automation using Make.com, REST APIs, and AI. Lead capture, follow-ups, CRM syncing, notifications — all hands-free.</p>
       </div>
       <div class="auto-card">
-        <div class="auto-card-tag">Workflow 2</div>
-        <h3>24-hour follow-up</h3>
-        <p>Leads who haven't responded after 24 hours automatically receive a follow-up message every morning at 9AM. Status updates to Contacted so no lead is messaged twice.</p>
+        <div class="auto-card-tag">Design</div>
+        <h3>SaaS &amp; UI/UX interfaces</h3>
+        <p>Product design for SaaS platforms, dashboards, and web applications. Complex backend logic translated into clean, usable front-end experiences.</p>
       </div>
       <div class="auto-card">
-        <div class="auto-card-tag">Workflow 3</div>
-        <h3>Calendly confirmation</h3>
-        <p>When a lead books a call, they instantly receive a WhatsApp confirmation with the exact date, time, and reschedule link. Airtable status updates to Viewing Booked.</p>
+        <div class="auto-card-tag">Development</div>
+        <h3>Web &amp; frontend build</h3>
+        <p>Responsive websites and frontend implementations in HTML, CSS, and JavaScript. AI-assisted prototyping and iteration for speed without sacrificing quality.</p>
       </div>
     </div>
   </div>
@@ -763,66 +782,107 @@
 <section class="services" id="services">
   <div class="container">
     <div class="section-label">Services</div>
-    <h2 class="section-title">What I build for you.</h2>
-    <p class="section-sub">Automation systems and product design, built and delivered — not templates handed off for you to figure out.</p>
+    <h2 class="section-title">What we build.</h2>
+    <p class="section-sub">Six service areas. One team. Whether you need automation, design, a SaaS product, or a collaborator — we build it properly and deliver it working.</p>
 
     <div class="services-grid">
-      <div class="service-card featured">
-        <div class="service-badge">Most Popular</div>
-        <h3>Lead Automation System</h3>
-        <p>The full Cold to Gold stack — built, tested, and live for your agency in 48 hours.</p>
-        <ul class="service-list">
-          <li>Tally lead capture form, fully configured</li>
-          <li>Make.com automation — 3 live scenarios</li>
-          <li>AI-personalised WhatsApp responses via OpenAI</li>
-          <li>Twilio WhatsApp API setup and integration</li>
-          <li>Airtable CRM with Kanban pipeline view</li>
-          <li>Calendly booking and confirmation flow</li>
-          <li>Telegram agent alert system</li>
-          <li>Full walkthrough video of your live system</li>
-        </ul>
-      </div>
-      <div class="service-card">
-        <div class="service-badge" style="background: transparent; color: var(--gold); border: 1px solid rgba(201,168,76,0.4);">Design</div>
-        <h3>UI/UX & Web Design</h3>
-        <p>Interfaces and websites built for clarity, conversion, and real-world usability.</p>
-        <ul class="service-list">
-          <li>SaaS product interface design</li>
-          <li>Responsive website design and development</li>
-          <li>Wireframes, user flows, and interaction design</li>
-          <li>Conversion-focused landing pages</li>
-          <li>Frontend implementation — HTML, CSS, JavaScript</li>
-          <li>Mobile-first, performance-optimised</li>
-          <li>AI-assisted prototyping and iteration</li>
-          <li>Design system and component documentation</li>
-        </ul>
-      </div>
-      <div class="service-card">
-        <div class="service-badge" style="background: transparent; color: var(--gold); border: 1px solid rgba(201,168,76,0.4);">Automation</div>
-        <h3>Custom Automation Workflows</h3>
-        <p>Make.com workflows built to your exact business process — any industry, any stack.</p>
-        <ul class="service-list">
-          <li>Make.com scenario design and build</li>
-          <li>CRM integration and data management</li>
-          <li>WhatsApp, email, and Telegram automation</li>
-          <li>API connections via HTTP modules</li>
-          <li>Airtable database setup and structuring</li>
-          <li>AI prompt engineering and integration</li>
-        </ul>
-      </div>
-      <div class="service-card">
-        <div class="service-badge" style="background: transparent; color: var(--gold); border: 1px solid rgba(201,168,76,0.4);">Strategy</div>
-        <h3>Product & System Thinking</h3>
-        <p>For teams who need product strategy, system architecture, and design thinking — not just execution.</p>
-        <ul class="service-list">
-          <li>Product roadmap and feature prioritisation</li>
-          <li>User journey mapping and experience audit</li>
-          <li>Backend-aware frontend architecture</li>
-          <li>Automation system design and planning</li>
-          <li>AI workflow integration strategy</li>
-          <li>SaaS platform consulting</li>
-        </ul>
-      </div>
+
+        <!-- 1: Automation -->
+        <div class="service-card">
+          <div class="service-badge" style="background:transparent;color:var(--gold);border:1px solid rgba(201,168,76,0.4);">Automation</div>
+          <h3>Workflow Automation</h3>
+          <p>Make.com systems built to your exact business process — any industry, any stack.</p>
+          <ul class="service-list">
+            <li>Make.com scenario design and build</li>
+            <li>CRM integration and data management</li>
+            <li>WhatsApp, email, and Telegram automation</li>
+            <li>API connections via HTTP modules</li>
+            <li>Airtable database setup and structuring</li>
+            <li>AI prompt engineering and integration</li>
+            <li>Multi-step triggers and conditional logic</li>
+          </ul>
+        </div>
+
+        <!-- 2: Real Estate MOST POPULAR -->
+        <div class="service-card featured">
+          <div class="service-badge">Most Popular</div>
+          <h3>Real Estate Lead System</h3>
+          <p>The full Cold to Gold stack — built, tested, and live for your agency in 48 hours. The most requested system we build.</p>
+          <ul class="service-list">
+            <li>Tally lead capture form, fully configured</li>
+            <li>Make.com automation — 3 live scenarios</li>
+            <li>AI-personalised WhatsApp responses via OpenAI</li>
+            <li>Twilio WhatsApp API setup and integration</li>
+            <li>Airtable CRM with Kanban pipeline view</li>
+            <li>Calendly booking and confirmation flow</li>
+            <li>Telegram agent alert system</li>
+            <li>Full walkthrough video of your live system</li>
+          </ul>
+        </div>
+
+        <!-- 3: UI/UX -->
+        <div class="service-card">
+          <div class="service-badge" style="background:transparent;color:var(--gold);border:1px solid rgba(201,168,76,0.4);">Design</div>
+          <h3>UI/UX &amp; Web Design</h3>
+          <p>Interfaces and websites built for clarity, conversion, and real-world usability.</p>
+          <ul class="service-list">
+            <li>SaaS product interface design</li>
+            <li>Responsive website design and development</li>
+            <li>Wireframes, user flows, and interaction design</li>
+            <li>Conversion-focused landing pages</li>
+            <li>Frontend — HTML, CSS, JavaScript</li>
+            <li>Mobile-first, performance-optimised</li>
+            <li>AI-assisted prototyping and iteration</li>
+            <li>Design system and component documentation</li>
+          </ul>
+        </div>
+
+        <!-- 4: SaaS -->
+        <div class="service-card">
+          <div class="service-badge" style="background:transparent;color:var(--gold);border:1px solid rgba(201,168,76,0.4);">SaaS</div>
+          <h3>SaaS &amp; Product Development</h3>
+          <p>For founders and teams building digital products who need a technical partner, not just a contractor.</p>
+          <ul class="service-list">
+            <li>SaaS platform interface and UX design</li>
+            <li>Product roadmap and feature planning</li>
+            <li>Conversational UX and AI-driven flows</li>
+            <li>Real-time dashboards and data views</li>
+            <li>Backend-aware frontend architecture</li>
+            <li>User journey mapping and experience audit</li>
+            <li>AI workflow integration into product</li>
+          </ul>
+        </div>
+
+        <!-- 5: Strategy -->
+        <div class="service-card">
+          <div class="service-badge" style="background:transparent;color:var(--gold);border:1px solid rgba(201,168,76,0.4);">Strategy</div>
+          <h3>Product &amp; System Strategy</h3>
+          <p>For teams who need product thinking and system architecture — not just execution.</p>
+          <ul class="service-list">
+            <li>Automation system design and planning</li>
+            <li>AI integration strategy and roadmap</li>
+            <li>SaaS platform consulting</li>
+            <li>Tech stack selection and architecture</li>
+            <li>Process audit and optimisation</li>
+            <li>System handoff and documentation</li>
+          </ul>
+        </div>
+
+        <!-- 6: Collaborate -->
+        <div class="service-card">
+          <div class="service-badge" style="background:transparent;color:var(--gold);border:1px solid rgba(201,168,76,0.4);">Collaborate</div>
+          <h3>Open to Collaborators</h3>
+          <p>Building something and need a technical or design partner? We work with freelancers, agencies, and founders worldwide.</p>
+          <ul class="service-list">
+            <li>White-label automation builds</li>
+            <li>Design and dev partnership</li>
+            <li>Revenue share arrangements considered</li>
+            <li>Agency overflow and subcontracting</li>
+            <li>Co-build on SaaS or digital products</li>
+            <li>Joint pitches to enterprise clients</li>
+          </ul>
+        </div>
+
     </div>
   </div>
 </section>
@@ -832,12 +892,12 @@
   <div class="container">
     <div class="section-label">Pricing</div>
     <h2 class="section-title">Simple, flat pricing.</h2>
-    <p class="section-sub">One-time setup fee. No hidden costs. Running costs stay under SGD $20/month on your own tools.</p>
+    <p class="section-sub">One-time setup fee. No hidden costs. Running costs stay under ~$15 USD/month on your own tools.</p>
 
     <div class="pricing-grid">
       <div class="pricing-card">
         <div class="pricing-name">Starter</div>
-        <div class="pricing-price">SGD <span></span>350</div>
+        <div class="pricing-price">$350 <span>USD</span></div>
         <div class="pricing-desc">For solo agents who want the core automation system live and running fast.</div>
         <ul class="pricing-features">
           <li>Tally form setup</li>
@@ -852,7 +912,7 @@
       <div class="pricing-card popular">
         <div class="popular-tag">Most Popular</div>
         <div class="pricing-name">Full System</div>
-        <div class="pricing-price">SGD <span></span>580</div>
+        <div class="pricing-price">$580 <span>USD</span></div>
         <div class="pricing-desc">The complete Cold to Gold stack — all 3 workflows, fully tested and live.</div>
         <ul class="pricing-features">
           <li>Everything in Starter</li>
@@ -868,7 +928,7 @@
       </div>
       <div class="pricing-card">
         <div class="pricing-name">Agency</div>
-        <div class="pricing-price">SGD <span></span>950</div>
+        <div class="pricing-price">$950 <span>USD</span></div>
         <div class="pricing-desc">For teams and agencies who want the full system plus a custom website.</div>
         <ul class="pricing-features">
           <li>Everything in Full System</li>
@@ -890,7 +950,7 @@
   <div class="container">
     <div class="section-label">Tech Stack</div>
     <h2 class="section-title">Built on tools that work.</h2>
-    <p class="section-sub">Every system is built on proven, reliable tools — no custom code required to maintain.</p>
+    <p class="section-sub">Every system is built on globally proven, reliable tools — no custom code required to maintain. Works in any country where WhatsApp Business is available.</p>
     <div class="tools-grid">
       <div class="tool-chip">Make.com</div>
       <div class="tool-chip">OpenAI GPT-4o-mini</div>
@@ -920,7 +980,7 @@
       </div>
       <div class="faq-item">
         <div class="faq-q">What WhatsApp plan do I need?</div>
-        <div class="faq-a">The system uses Twilio — a pay-as-you-go WhatsApp provider. There is no monthly platform fee. You pay only per message sent, which typically costs SGD $5–10 per month for 50–100 leads. No expensive subscriptions needed.</div>
+        <div class="faq-a">The system uses Twilio — a pay-as-you-go WhatsApp provider. There is no monthly platform fee. You pay only per message sent, which typically costs USD $3–8 per month for 50–100 leads. No expensive subscriptions needed. Works in any country where WhatsApp is active.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">How long does setup take?</div>
@@ -928,15 +988,15 @@
       </div>
       <div class="faq-item">
         <div class="faq-q">What are the ongoing monthly costs?</div>
-        <div class="faq-a">Make.com free plan, Tally free plan, Airtable free plan, Calendly free plan, and Twilio pay-per-message. Total running cost is typically under SGD $20 per month for an active solo agent.</div>
+        <div class="faq-a">Make.com free plan, Tally free plan, Airtable free plan, Calendly free plan, and Twilio pay-per-message. Total running cost is typically under ~$15 USD per month for an active solo agent.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">Can I sell this system to other agents?</div>
-        <div class="faq-a">Yes — the system is fully duplicatable. Once you have it running, I can help you clone it for other agents and build a recurring revenue stream. Many agents resell it for SGD $150–200/month per client.</div>
+        <div class="faq-a">Yes — the system is fully duplicatable. Once you have it running, I can help you clone it for other agents and build a recurring revenue stream. Many agents resell it for $150–200/month per client.</div>
       </div>
       <div class="faq-item">
         <div class="faq-q">Do you only work with real estate agents?</div>
-        <div class="faq-a">No. The automation and design services work for any business that generates leads online. Real estate is a specialty, but the same system applies to insurance, mortgage brokers, interior designers, and more.</div>
+        <div class="faq-a">No. The automation and design services work for any business that generates leads online. Real estate is a specialty, but the same system applies to any business that generates leads worldwide — insurance, mortgage brokers, interior designers, e-commerce, and more.</div>
       </div>
     </div>
   </div>
@@ -946,8 +1006,8 @@
 <section class="tally-section">
   <div class="container">
     <div class="section-label">Get Started</div>
-    <h2 class="section-title">Tell me about your business.</h2>
-    <p class="section-sub">Fill in your details and I'll get back to you within 24 hours to discuss your system.</p>
+    <h2 class="section-title">Tell us what you need built.</h2>
+    <p class="section-sub">Fill in your details and we'll get back to you within 24 hours — whether you're a client, a collaborator, or just exploring.</p>
     <div class="tally-wrap">
       <iframe data-tally-src="https://tally.so/embed/EkaaaX?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="400" frameborder="0" marginheight="0" marginwidth="0" title="Real estate enquiries" style="background: #111111; padding: 24px;"></iframe>
     </div>
@@ -956,15 +1016,15 @@
 
 <!-- CTA -->
 <section class="cta-section">
-  <h2>Ready to stop missing leads <em>forever?</em></h2>
-  <p>Book a free 15-minute call and I'll show you the system live.</p>
+  <h2>Ready to build something <em>that works?</em></h2>
+  <p>Book a free 15-minute call — we work with clients, collaborators, and founders worldwide across all timezones.</p>
   <a href="https://calendly.com/agent-name/15-min-property-consultation" target="_blank" class="btn-primary">Book Your Free Call →</a>
 </section>
 
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo">Cold<span>to</span>Gold</div>
-  <p>© 2026 Cold to Gold · Singapore</p>
+  <p>© 2026 Cold to Gold · Serving clients worldwide</p>
   <div class="footer-links">
     <a href="mailto:hello@coldtogoldsg.com">hello@coldtogoldsg.com</a>
     <a href="https://calendly.com/agent-name/15-min-property-consultation" target="_blank">Book a Call</a>
